@@ -27,6 +27,7 @@ def pm_2_cases():
         if pm_ds.casename is None:
             mindex += 1
             cindex = 0
+
         else:
             case_info = [title, modular, casename, mode, path, uuid, did, pageNum, key, index, company, body_data, expect]
             Excel('E:\\PyCharmProjects\\InterfaceTest\\testFile\\pre_test_file.xls').w(case_info)
