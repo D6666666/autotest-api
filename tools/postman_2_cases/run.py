@@ -34,6 +34,7 @@ def pm_2_cases():
             cindex += 1
         if pm_ds.modular is None:
             break
+
         row += 1
 
 pm_2_cases()
